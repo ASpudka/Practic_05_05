@@ -16,35 +16,35 @@ body{
   padding-top: 10%;
 
   .welcome-section-heading{
-    font-family: Arial;
+    /* font-family: display: ;; */
      }
 
  }
-.span{
-  padding: 15px;
-
-  border-top-color: #926239;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 10%;
- }
 
 .welcome-section-link{
+  border-style: 5px dotted #926239;
   color: inherit;
-  cursor: pointer;
+   cursor: pointer;
   ;
 }
-.solid-text{
-  padding: 10px;
-
+.solid-content{
+   padding: 10px;
   text-align: justify;
 
 }
 .dark-background{
+  padding: 10px;
 border-top-color: #926239;
 border-style: solid;
 border-width: 1px;
 background-color: #926239;
 color: #F4F4F4;
+}
+.bloc-content{
+  width: 30vw;
+ display: bloc-content;
+ padding: 10px;
+ border:10px solid lime;
+
 
 }
