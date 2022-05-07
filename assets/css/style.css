@@ -16,13 +16,15 @@ body{
   padding-top: 10%;
 
   .welcome-section-heading{
-    /* font-family: display: ;; */
+    
      }
 
  }
 
 .welcome-section-link{
-  border-style: 5px dotted #926239;
+  padding: 10px;
+  border: 1px solid #926239;
+  border-radius: 10%;
   color: inherit;
    cursor: pointer;
   ;
