@@ -4,10 +4,17 @@ body{
   color: #926239;
   font-family: Arial, Helvetica, sans-serif;
  }
+ .format-text{
+   text-transform: capitalize;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+ }
 
 .welcome-section{
   height: 100vh;
 
+  padding-top: 10%;
   background-image: url(./../images/beachshowcase.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,7 +22,7 @@ body{
 
   font-size: 20px;
   text-align: center;
-  padding-top: 10%;
+      
 }
   .welcome-section-heading{
     font-size: 50px;
